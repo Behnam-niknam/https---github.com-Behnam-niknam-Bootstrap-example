@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <title>نمایش تاریخ شمسی</title>
+    <link href="" rel="stylesheet" media="screen, projection" />
+	<script type="text/javascript" src="pdate.min.js"></script>
+	<style type="text/css">
+		body { direction: rtl; font: 13px Tahoma; background-color: #ffa; }
+		a {	text-decoration: none; }
+		#pdate1 { color: #080; font-weight: bold; }
+		#pdate2 { color: #800; font-weight: bold; }
+	</style>
+</head>
+
+<body>
+	<span>امروز : </span>
+	<span id="pdate1">تاریخ شمسی اینجا نمایش داده می‌شود</span>
+	<br />
+	
+	<span>باز هم امروز : </span>
+	<span id="pdate2">باز هم تاریخ امروز اینجا نشان داده می‌شود</span>
+	<br /><br />
+	
+	<span>هر ۶۰ ثانیه یک‌بار تاریخ جدید سیستم بازخوانی و نمایش داده می‌شود</span>
+	<br /><br />
+	<span>کد نویسی توسط: </span> <a href="http://amib.ir/weblog">امیب</a>
+	<script type="text/javascript">
+		AMIB.showPDate( 'pdate1' );
+		AMIB.showPDate( 'pdate2' );
+	</script>
+</body>
+
+</html>

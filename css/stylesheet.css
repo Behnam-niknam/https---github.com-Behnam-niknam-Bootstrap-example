@@ -1,0 +1,70 @@
+#basic {
+    margin-top: 10rem;
+    margin-right: -4rem;
+
+
+}
+
+#side {
+    margin-top: 10rem;
+    margin-right: 4rem;
+    text-align: center;
+}
+
+#footer {
+
+    /* background: linear-gradient(45deg, #37393F 9%,#4D6D89 98%);
+ */
+    background-image: linear-gradient(#37393F 9%, #4D6D89 98%);
+    margin-top: 0rem;
+    height: 10%;
+}
+
+#image {
+    height: 5rem;
+    width: 5rem;
+}
+
+.Headersetting {
+    margin-top: 1rem;
+}
+
+#hr1 {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 2rem;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#time {
+    margin-top: 2rem;
+    margin-right: -10rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    width: 12rem;
+    height: 5rem;
+    padding-top: 1.2rem;
+    padding-right: 2rem;
+    background-color: rgb(215, 110, 110);
+    border-radius: 1rem;
+    font-size: medium;
+
+}
+
+#DateTotall {
+    font-size: large;
+    border-style: solid;
+    border-width: 0.1rem;
+    width: 15rem;
+    height: 5.5rem;
+    padding-top: 0.3rem;
+    padding-right: 2rem;
+    background-color: rgb(215, 110, 110);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-right: 40rem;
+    text-align: center;
+}
